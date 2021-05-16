@@ -1,0 +1,172 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+:root {
+  --Violet: hsl(257, 40%, 49%);
+  --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* height: 100vh; */
+  line-height: 1.6;
+}
+
+.container {
+  background: url(./images/bg-mobile.svg) no-repeat;
+  background-color: var(--Violet);
+  padding: 2rem 2rem 0 2rem;
+}
+
+.logo {
+  height: 2rem;
+  /* width: 100%; */
+}
+
+.illustration {
+  display: inline-block;
+  margin-top: 3rem;
+  max-width: 100%;
+}
+
+.right-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-heading {
+  color: rgb(250, 250, 250);
+  text-align: center;
+  margin-top: 2rem;
+  line-height: 1.4;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 0 2rem;
+}
+
+.main-text {
+  color: rgb(228, 228, 228);
+  font-family: "Open Sans", sans-serif;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.register {
+  margin-top: 1rem;
+  border: none;
+  color: var(--Violet);
+  background-color: #fff;
+  padding: 0.8rem 4rem;
+  font-weight: 600;
+  border-radius: 2rem;
+  font-size: 0.7rem;
+}
+
+.register:hover {
+  background-color: var(--Soft-Magenta);
+  color: #fff;
+  cursor: pointer;
+}
+
+.icons {
+  margin-top: 2rem;
+  color: #fff;
+  display: flex;
+  /* justify-content: flex-end; */
+  gap: 1rem;
+}
+
+.icon {
+  font-size: 0.7rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: var(--Soft-Magenta);
+  border: 1px solid var(--Soft-Magenta);
+  cursor: pointer;
+}
+
+footer {
+  padding: 0 4rem;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    display: flex;
+    background: url("./images/bg-desktop.svg");
+    background-color: var(--Violet);
+    height: 100vh;
+    gap: 2rem;
+  }
+
+  .left-col {
+    width: 55%;
+    padding: 1rem;
+  }
+
+  .logo {
+    height: 3rem;
+  }
+
+  .right-col {
+    display: flex;
+    padding-top: 8rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 45%;
+  }
+
+  .main-heading {
+    text-align: unset;
+    padding: 0;
+    font-size: 2rem;
+    padding-right: 10rem;
+  }
+
+  .main-text {
+    text-align: unset;
+    padding: 0;
+    padding-top: 1rem;
+    padding-right: 9rem;
+    font-size: 0.9rem;
+  }
+
+  .register {
+    padding: 1rem 4rem;
+    font-size: 1rem;
+  }
+
+  .icons {
+    align-self: flex-end;
+    padding-top: 8rem;
+    padding-right: 10rem;
+  }
+
+  .icon {
+    font-size: 1rem;
+    width: 2rem;
+    height: 2rem;
+  }
+}
