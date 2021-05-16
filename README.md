@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Live-Solution](https://humayunah.github.io/Frontend-Mentor-Challenges/)
+- Solution URL: [https://humayunah.github.io/Frontend-Mentor-Challenges/](https://humayunah.github.io/Frontend-Mentor-Challenges/)
 
 ## My process
 
