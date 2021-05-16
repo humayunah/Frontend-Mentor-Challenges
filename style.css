@@ -148,19 +148,20 @@ footer {
   .main-text {
     text-align: unset;
     padding: 0;
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-right: 9rem;
     font-size: 0.9rem;
   }
 
   .register {
+    margin-top: 2rem;
     padding: 1rem 4rem;
     font-size: 1rem;
   }
 
   .icons {
     align-self: flex-end;
-    padding-top: 8rem;
+    padding-top: 6rem;
     padding-right: 10rem;
   }
 
